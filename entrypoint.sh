@@ -1,10 +1,8 @@
 #!/bin/sh -l
 set -euo pipefail
 
-echo "$PWD"
-
 # Set the default path to the script
-SCRIPT_FILEPATH=${SCRIPT_FILEPATH:=".github/sendgrid.js"}
+SCRIPT_FILEPATH="${GITHUB_WORKSPACE}/.github/sendgrid.js"
 
 # Execute the script
 $SCRIPT_FILEPATH

@@ -1,7 +1,7 @@
 #!/bin/sh -l
 set -euo pipefail
 
-chmod +x "./.github/sendgrid.js"
+ls -l
 
 # Set the default path to the script
 SCRIPT_FILEPATH="./.github/sendgrid.js"
